@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GamologyGapp.MainPage" BackgroundColor="Black">
+
+
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="10,0,10,10">
+        <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+            <Image Source="gamologyicon.png" WidthRequest="150" HeightRequest="280"></Image>
+        
+        <Label Text="Buscador de juegos por género" HorizontalOptions="CenterAndExpand" FontSize="Medium" TextColor="LimeGreen"></Label>
+         
+            <Entry Placeholder="Escribe un género" TextColor="Red" x:Name="txtGenero" PlaceholderColor="GhostWhite" HorizontalTextAlignment="Center"></Entry>
+
+            <Button Text="Buscar" x:Name="btnBuscar" TextColor="Black" BackgroundColor="Goldenrod"></Button>
+            <Label x:Name="lblBuscar"></Label>
+        
+        
+        
+    </StackLayout>
+        
+    </StackLayout>
+    
+</ContentPage>
